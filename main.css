@@ -16,7 +16,7 @@
     .period{
         text-align: left
     }
-}
+} 
 @media (min-width: 992px){
     .container {
         max-width: 1200px;
@@ -33,6 +33,7 @@
         text-align: right
     }
 }
+/* tag selector */
 body{
     margin:0;
     padding:0;
@@ -43,7 +44,6 @@ body{
 hr{
     background-color:#5EA5F3;
     border-width: 1px
-    /* border-width: 2px */
 }
 h1{
     color:#6474F0;
@@ -67,6 +67,7 @@ p3{
     line-height: 1em;
     font-weight: bold;
 }
+/* class selector */
 .left-col{
     height:100vh;
     background-color:#5EA5F3;
@@ -89,4 +90,7 @@ p3{
 }
 .languages{
     text-align: center
+}
+.bold{
+    font-weight: bold
 }
