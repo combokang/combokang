@@ -42,7 +42,7 @@ body{
     color: #5a5a5a
 }
 hr{
-    background-color:#5EA5F3;
+    background-color:gray;
     border-width: 1px
 }
 h1{
@@ -57,17 +57,11 @@ ul{
     padding:0px 3px 0px 25px;
     line-height:2em;
 }
-p2{
+/* class selector */
+.p2{
     line-height:2em;
     margin: 0
 }
-p3{
-    color: #5EA5F3;
-    font-size: 65px;
-    line-height: 1em;
-    font-weight: bold;
-}
-/* class selector */
 .left-col{
     height:100vh;
     background-color:#5EA5F3;
@@ -93,4 +87,11 @@ p3{
 }
 .bold{
     font-weight: bold
+}
+.single_language{   
+    color: #5EA5F3;
+    font-size: 65px;
+    line-height: 1em;
+    font-weight: bold;
+    margin: 10px
 }
