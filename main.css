@@ -1,87 +1,57 @@
-@media (min-width: 576px) {
-    .container {
-        max-width: 768px;
-    }
-
-    .period {
-        text-align: left
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 992px;
-    }
-
-    .left-col {
-        position: fixed
-    }
-
-    .period {
-        text-align: left
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 1200px;
-    }
-
-    .period {
-        text-align: left
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 2480px;
-    }
-
-    .period {
-        text-align: right
-    }
-}
-
 /* tag selector */
 body {
+    font-family: 'Arial', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
-    font-family: Microsoft JhengHei;
+    background-color: #FDFFFF;
     color: #5a5a5a
-}
-
-hr {
-    border-width: 1px
 }
 
 h2 {
     font-size: 2.5rem;
     color: #6474F0;
-    padding: 0 0 1px 0
+    margin-bottom: 2rem;
 }
 
+hr {
+    border-width: 1px;
+    color: #D0D0D0;
+}
+
+ol,
 ul {
-    padding: 0px 3px 0px 25px;
-    line-height: 2em;
+    padding-left: 1rem;
 }
 
 /* class selector */
-.p {
-    line-height: 2em;
-    padding: 0px 0px 5px 5px;
-}
-
-.p2 {
-    line-height: 2em;
-    margin: 0
-}
-
 .left-col {
     height: 100vh;
     background-color: #5EA5F3;
-    /* position:fixed; */
     text-align: center;
+}
+
+.right-col {
+    padding: 0px 12px 0px 12px;
+    line-height: 2em;
+    margin-bottom: 0px;
+}
+
+.main {
+    min-height: 100vh;
+    align-content: center;
+}
+
+.period {
+    align-items: right;
+    text-align: right;
+}
+
+.sector {
+    margin-bottom: 12px;
+}
+
+.p {
+    line-height: 2em;
 }
 
 .box {
@@ -116,7 +86,42 @@ ul {
     margin: 10px
 }
 
-.hello {
+/* id selector */
+#hello {
     color: white;
     font-size: 20px;
+}
+
+/* media query */
+@media (min-width: 576px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .left-col {
+        position: fixed
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 2480px;
+    }
+
 }
