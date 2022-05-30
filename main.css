@@ -8,9 +8,19 @@ body {
 }
 
 h2 {
-    font-size: 2.5rem;
-    color: #6474F0;
+    text-align: center;
+    font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+
+h2.purple {
+    color: #6474F0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 hr {
@@ -24,73 +34,56 @@ ul {
 }
 
 /* class selector */
-.left-col {
-    height: 100vh;
-    background-color: #5EA5F3;
-    text-align: center;
+.container {
+    width: 90vw;
 }
 
-.right-col {
-    padding: 0px 12px 0px 12px;
-    line-height: 2em;
-    margin-bottom: 0px;
-}
-
-.main {
-    min-height: 100vh;
-    align-content: center;
-}
-
-.period {
-    align-items: right;
-    text-align: right;
+.profile {
+    width: 60%;
+    max-width: 250px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .sector {
     margin-bottom: 12px;
 }
 
-.p {
-    line-height: 2em;
+.card-image {
+    object-fit: contain;
+    height: 300px;
 }
 
-.box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%
-}
 
-.profile {
-    width: 80%;
-    max-width: 200px;
-    border: solid rgb(189, 215, 238) 0.5em;
-    border-radius: 50%;
-    margin-bottom: 1em
-}
-
-.languages {
-    text-align: center
-}
-
-.bold {
-    font-weight: bold
-}
-
-.single_language {
-    color: #5EA5F3;
-    font-size: 65px;
-    line-height: 1em;
-    font-weight: bold;
-    margin: 10px
+.card-image>img {
+    max-height: 100%;
 }
 
 /* id selector */
-#hello {
-    color: white;
-    font-size: 20px;
+#Home {
+    height: 100%;
+    background-image: url(image/background/bg_blue.jpg);
+    background-size: cover;
 }
+
+#Experience {
+    height: 100%;
+    background-image: url(image/background/bg_purple.jpg);
+    background-size: cover;
+}
+
+
+#OtherInfo {
+    height: 100%;
+    background-image: url(image/background/bg_orange.jpg);
+    background-size: cover;
+}
+
+#hello {
+    margin-bottom: 0.5rem;
+}
+
 
 /* media query */
 @media (min-width: 576px) {
@@ -104,13 +97,20 @@ ul {
         max-width: 992px;
     }
 
-    .left-col {
-        position: fixed
+    .profile {
+        width: 80%;
     }
 
     h2 {
+        text-align: left;
         font-size: 3rem;
     }
+
+    h3 {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
 }
 
 @media (min-width: 992px) {

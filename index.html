@@ -9,259 +9,437 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="image/favicon.ico">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-3 left-col">
-                <div class=box>
-                    <img src="profile.jpg" alt="profile photo" class="profile img-fluid">
-                    <div id="hello">
-                        <span class="bold">
-                            嗨！我是康博元<br>
-                            Hi! I'm Po Yuan Kang
+    <div class="box text-white min-vh-100 d-flex py-5" id="Home">
+        <div class="container">
+            <nav
+                class="navbar navbar-expand-lg navbar-dark bg-transparent w-100 position-absolute top-0 start-50 translate-middle-x">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link" href="#Education">Education</a>
+                            <a class="nav-link" href="#Experience">Experience</a>
+                            <a class="nav-link" href="#Skills">Skills</a>
+                            <a class="nav-link" href="#OtherInfo">Information</a>
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row h-100 align-content-center position-relative">
+                <div class="col-12 col-md-4 d-flex flex-wrap justify-content-center align-items-center">
+                    <img src="image/profile.jpg" alt="profile photo" class="profile img-fluid">
+                </div>
+                <div class="col-12 col-md-8 d-flex flex-wrap justify-items-center align-content-center">
+                    <div class="lh-lg">
+                        <h2 id="hello" class="fw-bold">嗨！我是康博元</h2>
+                        <h3 class="fw-bold">I'm Po Yuan Kang</h3>
+                        <span class="text-light fw-bold">
+                            約 1 年軟體開發相關經驗
+                        </span>
+                        <span class="text-light">
+                            ，擔任 SA 與 PM，喜愛探究問題並尋找解決方案。參與過銀行大型系統建置，為新創團隊開發過其主要產品，了解商業邏輯與資訊科技，擅於團隊合作，擁有跨部門溝通與優秀的學習能力。
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 back-col"></div>
-            <div class="col-12 col-md-9 right-col ">
+        </div>
+    </div>
+
+    <div class="box min-vh-100 d-flex py-5" id="Education">
+        <div class="container">
+            <div class="row h-100 align-content-center">
+                <h2 class="purple">EDUCATION</h2>
                 <div class="container">
-                    <div class="row main">
-                        <h2>ABOUT ME</h2>
-                        <div class="col-sm-12">
-                            <div class="p">
-                                <span class="bold">約 1 年軟體開發相關經驗</span>
-                                ，擔任 SA 與
-                                PM，喜愛探究問題並尋找解決方案。參與過銀行大型系統建置，為新創團隊開發過其主要產品，了解商業邏輯與資訊科技，擅於團隊合作，擁有跨部門溝通與優秀的學習能力。
-                            </div>
+                    <div class="row sector">
+                        <div class="col-6">
+                            <div class="fw-bold">國立成功大學</div>
+                            <div>資訊管理學研究所</div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div>2022.2 - Present</div>
+                            <div>Tainan, Taiwan</div>
                         </div>
                     </div>
-                    <hr />
-
-                    <div class="row main">
-                        <h2>EDUCATION</h2>
-                        <div class="container">
-                            <div class="row sector">
-                                <div class="col-6">
-                                    <div class="bold">國立成功大學</div>
-                                    <div>資訊管理學研究所</div>
-                                </div>
-                                <div class="col-6 period">
-                                    <div>2022.2 - Present</div>
-                                    <div>Tainan, Taiwan</div>
-                                </div>
-                            </div>
-                            <div class="row sector">
-                                <div class="p">
-                                    <ul>
-                                        <li>碩士班在學中</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="container">
-                            <div class="row sector">
-                                <div class="col-6">
-                                    <div class="bold">York University</div>
-                                    <div>Schulich School of Business</div>
-                                </div>
-                                <div class="col-6 period">
-                                    <div>2014.9 - 2019.1</div>
-                                    <div>Toronto, Canada</div>
-                                </div>
-                            </div>
-                            <div class="row sector">
-                                <div class="p">
-                                    <ul>
-                                        <li>iBBA Exchange Program</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="row sector">
-                                <div class="col-6">
-                                    <div class="bold">國立政治大學</div>
-                                    <div>企業管理學系</div>
-                                </div>
-                                <div class="col-6 period">
-                                    <div>2014.9 - 2019.1</div>
-                                    <div>Taipei, Taiwan</div>
-                                </div>
-                            </div>
-                            <div class="row sector">
-                                <div class="p">
-                                    <ul>
-                                        <li>GPA 4.0/4.3</li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <div class="row sector">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>碩士班在學中</li>
+                            </ul>
                         </div>
                     </div>
-                    <hr />
+                </div>
 
-                    <div class="row main">
-                        <h2>EXPERIENCE</h2>
-                        <div class="container">
-                            <div class="row sector">
-                                <div class="col-6">
-                                    <div class="bold">慧智科技</div>
-                                    <div>系統分析師</div>
-                                </div>
-                                <div class="col-6 period">
-                                    <div>2019.8 - 2021.4</div>
-                                    <div>Taipei, Taiwan</div>
-                                </div>
-                            </div>
-                            <div class="row sector">
-                                <div class="p">
-                                    <ul>
-                                        <li>參與台灣前五大商業銀行風險管理系統開發專案，擔任助理系統分析師兼專案經理，目前系統已上線供全銀行 (包含海外事業部) 使用
-                                            <ol>
-                                                <li>擔任襄理級客戶與6人開發團隊的主要溝通窗口，協助管理專案時程與客戶需求</li>
-                                                <li>協助使用者需求分析並完成共 10+ 份需求分析與系統分析文件</li>
-                                                <li>設計並演示 8 個模組共 100+ prototype 頁面，協助專案快速驗證 UI/UX 構想</li>
-                                                <li>協助軟體測試，定義問題優先級與嚴重度，增加系統開發之穩定度</li>
-                                                <li>提供技術支援，上版程式與資料庫於SIT/UAT/正式環境並進行問題排除</li>
-                                            </ol>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="container">
+                    <div class="row sector">
+                        <div class="col-6">
+                            <div class="fw-bold">York University</div>
+                            <div>Schulich School of Business</div>
                         </div>
-                        <div class="container">
-                            <div class="row sector">
-                                <div class="col-6">
-                                    <div class="bold">蹦世界數位創意</div>
-                                    <div>專案企劃 實習生</div>
-                                </div>
-                                <div class="col-6 period">
-                                    <div>2017.7 - 2018.6</div>
-                                    <div>Taipei, Taiwan</div>
-                                </div>
-                            </div>
-                            <div class="row sector">
-                                <div class="p">
-                                    <ul>
-                                        <li>參與經濟部小型企業創新研發計畫 (SBIR) - 名人故居整合加值專案，擔任專案經理
-                                            <ol>
-                                                <li>計畫目的為藉由協助名人故居進行數位內容加值，驗證新產品商業模式可行性，並取得研發補助款</li>
-                                                <li>通過 100% 政府補助款，並推出適地性(LBS)的創新行動應用「實境解謎遊戲平台」，成為公司主要產品</li>
-                                                <li>設計初步 UI/UX 構想，繪製 flow chart 與 wireframe 並協調 4 人專案團隊</li>
-                                                <li>設計並執行使用者問卷調查</li>
-                                                <li>擔任「實境解謎遊戲平台」組長，管理 2 名組員</li>
-                                            </ol>
-                                        </li>
-                                        <li>管理其他 4 件專案時程，並協調 3-7 人不等之團隊</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="col-6 text-end">
+                            <div>2014.9 - 2019.1</div>
+                            <div>Toronto, Canada</div>
                         </div>
                     </div>
-                    <hr />
-
-                    <div class="row main">
-                        <h2>SKILLS</h2>
-                        <div class="row sector">
-                            <div class="col-4">
-                                <div class="p subt">
-                                    <div class="bold">語文能力</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <div class="p">
-                                    <ul>
-                                        <li>English - TOIEC 965</li>
-                                        <li>日本語 - JEPT N3</li>
-                                        <li>中文 - 母語</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row sector">
-                            <div class="col-4">
-                                <div class="p subt">
-                                    <div class="bold">程式語言</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <div class="p">
-                                    <ul>
-                                        <li>Python</li>
-                                        <li>SQL</li>
-                                        <li>HTML/CSS/JavaScript</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row sector">
-                            <div class="col-4">
-                                <div class="p subt">
-                                    <div class="bold">工作能力</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <div class="p">
-                                    <ul>
-                                        <li>系統分析</li>
-                                        <li>專案管理</li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <div class="row sector">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>iBBA Exchange Program</li>
+                            </ul>
                         </div>
                     </div>
-                    <hr />
-
-                    <div class="row main">
-                        <h2>OTHER INFORMATION</h2>
-                        <div class="row sector">
-                            <div class="col-4">
-                                <div class="bold">領導經驗</div>
-                            </div>
-                            <div class="col-8">
-                                <ul>
-                                    <li>政大企管系系代表</li>
-                                    <li>政大街舞社社長</li>
-                                    <li>政大企管營活動長</li>
-                                    <li>政大高雄屏東地區友會 - 總迎新召集人、友會出遊召集人</li>
-                                </ul>
-                            </div>
+                </div>
+                <div class="container">
+                    <div class="row sector">
+                        <div class="col-6">
+                            <div class="fw-bold">國立政治大學</div>
+                            <div>企業管理學系</div>
                         </div>
-                        <div class="row sector">
-                            <div class="col-4">
-                                <div class="bold">志工經驗</div>
-                            </div>
-                            <div class="col-8">
-                                <ul>
-                                    <li>2014 年起連續兩年參加偏鄉服務隊，並擔任活動長</li>
-                                    <li>2015 年鯉想啟程公益活動志工表演者</li>
-                                </ul>
-                            </div>
+                        <div class="col-6 text-end">
+                            <div>2014.9 - 2019.1</div>
+                            <div>Taipei, Taiwan</div>
                         </div>
-                        <div class="row sector">
-                            <div class="col-4">
-                                <div class="bold">興趣嗜好</div>
-                            </div>
-                            <div class="col-8">
-                                <ul>
-                                    <li>業餘街舞愛好者，街舞資歷超過 10 年</li>
-                                </ul>
-                            </div>
+                    </div>
+                    <div class="row sector">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>GPA 4.0/4.3</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="box text-white min-vh-100 d-flex py-5" id="Experience">
+        <div class="container">
+            <div class="row h-100 align-content-center">
+                <h2 class="purple">EXPERIENCE</h2>
+                <div class="container">
+                    <div class="row sector">
+                        <div class="col-6">
+                            <div class="fw-bold">慧智科技</div>
+                            <div>系統分析師</div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div>2019.8 - 2021.4</div>
+                            <div>Taipei, Taiwan</div>
+                        </div>
+                    </div>
+                    <div class="row sector">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>參與台灣前五大商業銀行風險管理系統開發專案，擔任助理系統分析師兼專案經理，目前系統已上線供全銀行 (包含海外事業部) 使用
+                                    <ol>
+                                        <li>擔任襄理級客戶與6人開發團隊的主要溝通窗口，協助管理專案時程與客戶需求</li>
+                                        <li>協助使用者需求分析並完成共 10+ 份需求分析與系統分析文件</li>
+                                        <li>設計並演示 8 個模組共 100+ prototype 頁面，協助專案快速驗證 UI/UX 構想</li>
+                                        <li>協助軟體測試，定義問題優先級與嚴重度，增加系統開發之穩定度</li>
+                                        <li>提供技術支援，上版程式與資料庫於SIT/UAT/正式環境並進行問題排除</li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row sector">
+                        <div class="col-6">
+                            <div class="fw-bold">蹦世界數位創意</div>
+                            <div>專案企劃 實習生</div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div>2017.7 - 2018.6</div>
+                            <div>Taipei, Taiwan</div>
+                        </div>
+                    </div>
+                    <div class="row sector">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>參與經濟部小型企業創新研發計畫 (SBIR) - 名人故居整合加值專案，擔任專案經理
+                                    <ol>
+                                        <li>計畫目的為藉由協助名人故居進行數位內容加值，驗證新產品商業模式可行性，並取得研發補助款</li>
+                                        <li>通過 100% 政府補助款，並推出適地性(LBS)的創新行動應用「實境解謎遊戲平台」，成為公司主要產品</li>
+                                        <li>設計初步 UI/UX 構想，繪製 flow chart 與 wireframe 並協調 4 人專案團隊</li>
+                                        <li>設計並執行使用者問卷調查</li>
+                                        <li>擔任「實境解謎遊戲平台」組長，管理 2 名組員</li>
+                                    </ol>
+                                </li>
+                                <li>管理其他 4 件專案時程，並協調 3-7 人不等之團隊</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="box min-vh-100 d-flex py-5" id="Skills">
+        <div class="container">
+            <div class="row h-100 align-content-center">
+                <h2 class="purple">SKILLS</h2>
+                <div class="row sector">
+                    <div class="col-4">
+                        <div class="lh-lg subt">
+                            <div class="fw-bold">語文能力</div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>English - TOIEC 965</li>
+                                <li>日本語 - JEPT N3</li>
+                                <li>中文 - 母語</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row sector">
+                    <div class="col-4">
+                        <div class="lh-lg subt">
+                            <div class="fw-bold">程式語言</div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>HTML/CSS/JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row sector">
+                    <div class="col-4">
+                        <div class="lh-lg subt">
+                            <div class="fw-bold">工作能力</div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="lh-lg">
+                            <ul>
+                                <li>System Analysis</li>
+                                <li>Project Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box text-white min-vh-100 d-flex py-5" id="OtherInfo">
+        <div class="container">
+            <div class="row h-100 align-content-center">
+                <h2>OTHER INFORMATION</h2>
+                <div class="row sector">
+                    <div class="col-4">
+                        <div class="fw-bold">領導經驗</div>
+                    </div>
+                    <div class="col-8">
+                        <ul>
+                            <li>政大企管系系代表</li>
+                            <li>政大街舞社社長</li>
+                            <li>政大企管營活動長</li>
+                            <li>政大高雄屏東地區友會 - 總迎新召集人、友會出遊召集人</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row sector">
+                    <div class="col-4">
+                        <div class="fw-bold">志工經驗</div>
+                    </div>
+                    <div class="col-8">
+                        <ul>
+                            <li>2014 年起連續兩年參加偏鄉服務隊，並擔任活動長</li>
+                            <li>2015 年鯉想啟程公益活動志工表演者</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row sector">
+                    <div class="col-4">
+                        <div class="fw-bold">興趣嗜好</div>
+                    </div>
+                    <div class="col-8">
+                        <ul>
+                            <li>業餘街舞愛好者，街舞資歷超過 10 年</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box min-vh-100 d-flex py-5" id="Portfolio">
+        <div class="container">
+            <div class="row h-100 align-content-center">
+                <h2 class="purple">PORTFOLIO</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card mb-5">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-5 d-flex align-items-center justify-content-center card-image">
+                                        <img src="image/portfolio/portfolio1.png" class="img-fluid rounded-start"
+                                            alt="image">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body h-100 d-flex flex-column justify-content-center">
+                                            <h5 class="card-title">新聞露出自動化截圖助手</h5>
+                                            <p class="card-text">協助大型公關集團流程自動化
+                                            </p>
+                                            <div>
+                                                <ul>
+                                                    <li>分析 Excel 以取得需要爬取的新聞網站，約 100 個</li>
+                                                    <li>自動瀏覽新聞網站並進行全頁截圖</li>
+                                                    <li>對 Lazy loading、彈出視窗、反爬蟲進行處理 </li>
+                                                    <li>使用 Python Pyppeteer 套件爬蟲並截圖，打包成執行檔供客戶使用 </li>
+                                                </ul>
+                                            </div>
+                                            <p class="card-text"><small class="text-muted">
+                                                    #Python #Pyppeteer
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-5">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-5 d-flex align-items-center justify-content-center card-image">
+                                        <img src="image/portfolio/portfolio2.png" class="img-fluid rounded-start"
+                                            alt="image">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body h-100 d-flex flex-column justify-content-center">
+                                            <h5 class="card-title">健康好朋友LINE機器人</h5>
+                                            <p class="card-text">參與 Python 讀書會，與 3 名組員進行 chatbot 開發 </p>
+                                            <div>
+                                                <ul>
+                                                    <li>使用者可搜尋或建立每日所攝取的食物與熱量</li>
+                                                    <li>計算使用者熱量攝取</li>
+                                                    <li>使用 Python 語言 Flask 架構開發，負責程式碼整合與部屬 </li>
+                                                    <li>部屬於 Heroku 雲端伺服器、串接 Heroku Postgres 資料庫</li>
+                                                </ul>
+                                            </div>
+                                            <p class="card-text"><small class="text-muted">
+                                                    #Python #Flask #Heroku #PostgresSQL #LineMessageAPI
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-5">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-5 d-flex align-items-center justify-content-center card-image">
+                                        <img src="image/portfolio/portfolio3.png" class="img-fluid rounded-start"
+                                            alt="image">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body h-100 d-flex flex-column justify-content-center">
+                                            <h5 class="card-title">台股申購助手 </h5>
+                                            <p class="card-text">爬蟲程式 side project </p>
+                                            <div>
+                                                <ul>
+                                                    <li>從網路抓取股票申購資料並進行資料清理</li>
+                                                    <li>以特定條件篩選出股票並以gmail寄至使用者信箱</li>
+                                                    <li>於設定檔調整篩選條件</li>
+                                                    <li>使用 Python 語言 Beautiful Soup 套件進行爬蟲，部屬於 Heroku 雲端伺服器 </li>
+                                                </ul>
+                                            </div>
+                                            <p class="card-text"><small class="text-muted">
+                                                    #Python #BeautifulSoup #Heroku
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-5">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-5 d-flex align-items-center justify-content-center card-image">
+                                        <img src="image/portfolio/portfolio4.png" class="img-fluid rounded-start"
+                                            alt="image">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body h-100 d-flex flex-column justify-content-center">
+                                            <h5 class="card-title">銀行風險管理系統開發</h5>
+                                            <p class="card-text">系統分析</p>
+                                            <div>
+                                                <ul>
+                                                    <li>套裝軟體客製化導入</li>
+                                                    <li>進行需求訪談，分析業務流程並設計網頁 prototype</li>
+                                                    <li>建立系統規格，設計系統功能、表單欄位、資料庫綱要並文件化</li>
+                                                    <li>擔任開發團隊與客戶間的溝通窗口，進行專案時程管理、需求管理</li>
+                                                    <li>技術支援：協助程式與SQL部署、系統測試工作、問題排除、教育訓練</li>
+                                                </ul>
+                                            </div>
+                                            <p class="card-text"><small class="text-muted">
+                                                    #SystemAnalysis #ProjectManagement #SQLServer #Prototyping
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-5">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-5 d-flex align-items-center justify-content-center card-image">
+                                        <img src="image/portfolio/portfolio5.png" class="img-fluid rounded-start"
+                                            alt="image">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body h-100 d-flex flex-column justify-content-center">
+                                            <h5 class="card-title">實境解謎互動遊戲開發</h5>
+                                            <p class="card-text">專案管理</p>
+                                            <div>
+                                                <ul>
+                                                    <li>參與內政部 SBIR 計畫，進行行動 App 產品功能開發</li>
+                                                    <li>對內協調 4 人專案團隊，對外溝通政府單位與 2 間合作公司</li>
+                                                    <li>撰寫專案文件，通過內政部全額補助</li>
+                                                    <li>建立新商業模式：新產品功能導向新的目標客群並創造新的價值</li>
+                                                    <li>開發成果經過市場驗證，成為公司主要產品</li>
+                                                </ul>
+                                            </div>
+                                            <p class="card-text"><small class="text-muted">
+                                                    #ProjectManagement
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-light bg-transparent position-absolute start-50 translate-middle-x">
+                <div class="container-fluid">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link" href="#Home"><u>To the Top</u></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
