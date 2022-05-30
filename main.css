@@ -33,6 +33,31 @@ ul {
     padding-left: 1rem;
 }
 
+/* id selector */
+#Hello {
+    margin-bottom: 0.5rem;
+}
+
+#Home {
+    background-image: url(image/background/bg_blue.jpg);
+    background-size: cover;
+}
+
+#Experience {
+    background-image: url(image/background/bg_purple.jpg);
+    background-size: cover;
+}
+
+#OtherInfo {
+    background-image: url(image/background/bg_orange.jpg);
+    background-size: cover;
+}
+
+#Contact {
+    background-image: url(image/background/bg_blue.jpg);
+    background-size: cover;
+}
+
 /* class selector */
 .container {
     width: 90vw;
@@ -60,30 +85,18 @@ ul {
     max-height: 100%;
 }
 
-/* id selector */
-#Home {
-    height: 100%;
-    background-image: url(image/background/bg_blue.jpg);
-    background-size: cover;
+.contact-icon {
+    max-width: 100px;
 }
 
-#Experience {
-    height: 100%;
-    background-image: url(image/background/bg_purple.jpg);
-    background-size: cover;
+.contact-text {
+    text-align: center;
 }
 
-
-#OtherInfo {
-    height: 100%;
-    background-image: url(image/background/bg_orange.jpg);
-    background-size: cover;
+.darken:hover {
+    transition: filter .15s;
+    filter: brightness(50%);
 }
-
-#hello {
-    margin-bottom: 0.5rem;
-}
-
 
 /* media query */
 @media (min-width: 576px) {
@@ -109,6 +122,10 @@ ul {
     h3 {
         text-align: left;
         font-size: 2.5rem;
+    }
+
+    .contact-text {
+        text-align: left;
     }
 
 }
